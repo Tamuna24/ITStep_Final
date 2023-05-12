@@ -1,3 +1,259 @@
-body{
-    background-color: red;
+@font-face {
+    font-family: myFirstFont;
+    src: url(static/Manrope-Regular.ttf);
 }
+body{
+    margin: 0px;
+    font-family: myFirstFont;
+}
+
+ /* ````````````````````````````````````````````header````````````````````````````````````````````  */
+#header{
+    display: flex;
+    flex-direction: row;
+    width: 1437px;
+}
+ #logo{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    margin-left: 120px;
+    margin-top: 52px;
+}
+#navBar{
+    margin-left: 463px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 52px;
+}
+#navBar>p:first-child{
+    /* just first child */
+    width: 45px;
+   height: 16px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 16px;
+   letter-spacing: 0.3px;
+   color: black;
+}
+#navBar>p:not(:first-child){
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: grey;
+}
+#navBar>p{
+    margin-left: 40px;
+    }    
+#btns{
+    margin-left: 260px;
+    display: flex;
+    flex-direction: row;
+}
+#logIn{
+    width: 43px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: black;
+    margin-top: 64px;
+}
+#register{
+    position: relative;
+    margin-left: 38px;
+    margin-top: 52px;
+    width: 66px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border: 1px solid rgba(60, 147, 121, 1);
+    background-color: #3C9379;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+
+ /* ````````````````````````````````````````````body1````````````````````````````````````````````  */
+
+#body1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 56px;
+}
+#about{
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+ #about>h1{
+    width: 457px;
+    height: 140px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+    color: black;
+}
+ #about>h2{
+    margin-top: -110px;
+    width: 457px;
+    height: 140px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+    color: rgba(60, 147, 121, 1);
+}
+#about>p{
+    margin-top: -80px;
+    width: 454px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #535A56;
+}
+#about>h3{
+    position: relative;
+    width: 112px;
+    height: 16px;    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border: 1px solid rgba(60, 147, 121, 1);
+    background-color: #3C9379;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+
+}
+
+
+ /* ````````````````````````````````````````````body2````````````````````````````````````````````  */
+
+ #body2{
+    margin-top: 75px;
+ }
+ #body2>h1{
+    width: 602px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: black;
+    margin-left: 409px;
+ }
+#topBrands{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+}
+#topBrands>img{
+    margin-right: 45px;
+}
+#tokopedia{
+    width: 203.98px;
+    height: 44.08px;
+    margin-top: 60px;
+}
+#balenciaga{
+    width: 207px;
+    height: 26px;
+    margin-top: 70px;
+}
+#adidas{
+    width: 202.1px;
+    height: 46.2px;
+    margin-top: 60px;
+}
+#gucci{
+    width: 202px;
+    height: 32px;
+    margin-top: 67px;
+}
+#Bukalapak{
+    width: 204px;
+    height: 33px;
+    margin-top: 72px;
+}
+
+
+ /* ````````````````````````````````````````````body3````````````````````````````````````````````  */
+
+
+
+ #body3{
+    margin-top: 130px;
+ }
+
+#browse{
+    margin-left: 120px;
+    width: 343px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+    color: black;
+}
+
+#cols{
+    box-sizing: border-box;
+    margin-left: 120px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#clothes{
+    width: 500px;
+    height: 180px;
+}
+#clothes>img{
+    border-radius: 30px;
+}
+#fashionNums{
+    margin-left: 490px;
+}
+#skincare{
+    width: 500px;
+    height: 180px;
+}
+#skincare>img{
+    margin-top: 26px;
+
+    border-radius: 30px;
+    background: #101913;
+}
+#skincareNums{
+    margin-left: 490px;
+}
+
