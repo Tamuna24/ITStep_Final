@@ -9,6 +9,11 @@
     font-family: extra-light;
     src: url(font/Manrope-ExtraLight.ttf);
 }
+@font-face {
+
+    font-family: medium;
+    src: url(font/Manrope-Medium.ttf);
+}
 body{
     margin: 0px;
     font-family: regular;
@@ -421,3 +426,142 @@ body{
 }
 
 
+
+
+ /* ````````````````````````````````````````````body4````````````````````````````````````````````  */
+
+
+ #body4{
+    margin-top: 100px;
+ }
+#why{
+    width: 342px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+    margin-left: 570px;
+}
+#perks{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+#delivery{
+    margin-left: 220px;
+    text-align: center;
+}
+#delivery>h3{
+    height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: regular;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: black;
+}
+#delivery>p{
+    width: 300px;
+    font-family: extra-light;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: grey;
+
+}
+
+
+
+#trust{
+    margin-left: 65px;
+    text-align: center;
+}
+#trust>h3{
+    height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: regular;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: black;
+}
+#trust>p{
+    width: 300px;
+    font-family: extra-light;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: grey;
+
+}
+
+
+
+#forYou{
+    margin-left: 65px;
+    text-align: center;
+}
+#forYou>h3{
+    height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: regular;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: black;
+}
+#forYou>p{
+    width: 300px;
+    font-family: extra-light;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: grey;
+
+}
+
+
+
+
+
+ /* ````````````````````````````````````````````body````````````````````````````````````````````  */
+
+#body5{
+    margin-top: 200px;
+}
+#popularProduct{
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+  
+#popularProduct>img{
+    padding: 10px;
+}
+#ipad{
+    height: 499px;
+    width: 399px;
+}
+#moonLamp{
+    height: 399px;
+    width: 499px;
+}
+#mushroomLamp{
+    height: 399px;
+    width: 499px;
+}
