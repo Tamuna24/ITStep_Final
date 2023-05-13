@@ -1,10 +1,19 @@
 @font-face {
-    font-family: myFirstFont;
-    src: url(static/Manrope-Regular.ttf);
+    font-family: regular;
+    src: url(font/Manrope-Regular.ttf);
+    /* font-family: extra-light;
+    src: url(font/Manrope-ExtraLight.ttf); */
+}
+@font-face {
+
+    font-family: extra-light;
+    src: url(font/Manrope-ExtraLight.ttf);
 }
 body{
     margin: 0px;
-    font-family: myFirstFont;
+    font-family: regular;
+    width: 1437px;
+    box-sizing: border-box;
 }
 
  /* ````````````````````````````````````````````header````````````````````````````````````````````  */
@@ -152,6 +161,12 @@ body{
     border-radius: 8px;
 
 }
+#photo{
+    background-image: url(body1/woman.png);
+    width: 970px;
+    height: 600px;
+    background-size: cover;
+}
 
 
  /* ````````````````````````````````````````````body2````````````````````````````````````````````  */
@@ -214,6 +229,10 @@ body{
     margin-top: 130px;
  }
 
+
+ #body32{
+    margin-top: -10px;
+ }
 #browse{
     margin-left: 120px;
     width: 343px;
@@ -226,6 +245,12 @@ body{
     color: black;
 }
 
+
+#body32{
+    display: flex;
+    flex-direction: row;
+}
+
 #cols{
     box-sizing: border-box;
     margin-left: 120px;
@@ -236,24 +261,163 @@ body{
 #clothes{
     width: 500px;
     height: 180px;
-}
-#clothes>img{
     border-radius: 30px;
-}
-#fashionNums{
-    margin-left: 490px;
-}
-#skincare{
     width: 500px;
     height: 180px;
+    background: black;
+}
+#clothes>img{
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 500px;
+    height: 180px;
+    opacity: 0.5;
+}
+#fashionNums{
+    width: 78px;
+    height: 20px;
+    color: white;
+    margin-left: 390px;
+    position: relative;
+    margin-bottom: -50px;
+}
+#fashionNums>h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px; 
+    font-style: normal; 
+}
+#fashionNums>h4{
+    font-family: extra-light;
+    width: 100px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    margin-top: -17px;
+}
+#skincare{
+    background: black;
+    margin-top: 20px;
+    width: 500px;
+    height: 180px;
+    border-radius: 30px;
 }
 #skincare>img{
-    margin-top: 26px;
-
+    margin-top: 31px;
+    opacity: 0.5;
     border-radius: 30px;
-    background: #101913;
 }
 #skincareNums{
-    margin-left: 490px;
+    width: 78px;
+    height: 20px;
+    color: white;
+    margin-left: 390px;
+    position: relative;
+    margin-bottom: -70px;
 }
+#skincare>h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px; 
+    font-style: normal; 
+}
+#skincareNums>h4{
+    font-family: extra-light;
+    width: 100px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    margin-top: -17px;
+}
+
+
+#rows{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Shoes>img{
+    opacity: 0.5;
+}
+#Shoes{
+    margin-top: 18px;
+    border-radius: 30px;
+    width: 287px;
+    height: 386px;
+    background: black;
+}
+#shoesNums{
+    margin-top: -380px;
+    color: white;
+    margin-left: 165px;
+}
+#shoesNums>h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px; 
+    font-style: normal; 
+}
+#shoesNums>h4{
+    font-family: extra-light;
+    width: 100px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    margin-top: -17px;
+}
+
+
+
+
+
+
+
+#electronics>img{
+    opacity: 0.5;
+}
+#electronics{
+    margin-top: 18px;
+    border-radius: 30px;
+    width: 361px;
+    height: 386px;
+    background: black;
+    margin-left: 30px;
+}
+#electronicNums{
+    margin-top: -380px;
+    color: white;
+    margin-left: 165px;
+}
+#electronicNums>h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px; 
+    font-style: normal; 
+}
+#electronicNums>h4{
+    font-family: extra-light;
+    width: 100px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    margin-top: -17px;
+}
+
 
