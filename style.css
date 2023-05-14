@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: regular;
     src: url(font/Manrope-Regular.ttf);
@@ -40,7 +42,7 @@ body{
     flex-direction: row;
     margin-top: 52px;
 }
-#navBar>p:first-child{
+#navBar>a:first-child{
     /* just first child */
     width: 45px;
    height: 16px;
@@ -51,7 +53,7 @@ body{
    letter-spacing: 0.3px;
    color: black;
 }
-#navBar>p:not(:first-child){
+#navBar>a:not(:first-child){
     height: 16px;
     font-style: normal;
     font-weight: 500;
@@ -60,13 +62,17 @@ body{
     letter-spacing: 0.3px;
     color: grey;
 }
-#navBar>p{
+#navBar>a{
     margin-left: 40px;
+    text-decoration: none;
     }    
 #btns{
     margin-left: 260px;
     display: flex;
     flex-direction: row;
+}
+#btns>a{
+    text-decoration: none;
 }
 #logIn{
     width: 43px;
@@ -100,6 +106,8 @@ body{
     color: white;
     border-radius: 8px;
 }
+
+
 
 
  /* ````````````````````````````````````````````body1````````````````````````````````````````````  */
@@ -146,7 +154,7 @@ body{
     letter-spacing: 0.3px;
     color: #535A56;
 }
-#about>h3{
+#about>a{
     position: relative;
     width: 112px;
     height: 16px;    
@@ -164,7 +172,7 @@ body{
     text-align: center;
     color: white;
     border-radius: 8px;
-
+    text-decoration: none;
 }
 #photo{
     background-image: url(body1/woman.png);
@@ -538,30 +546,256 @@ body{
 
 
 
- /* ````````````````````````````````````````````body````````````````````````````````````````````  */
+ /* ````````````````````````````````````````````body5````````````````````````````````````````````  */
 
 #body5{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 #popularProduct{
+    display: flex;
+    flex-direction: row;
     background-color: white;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
+    margin-left: 100px;
 }
   
-#popularProduct>img{
+#popularProduct>div{
     padding: 10px;
+
 }
-#ipad{
-    height: 499px;
-    width: 399px;
+#ipad>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
 }
-#moonLamp{
-    height: 399px;
-    width: 499px;
+#ipad>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 30px;
+    font-size: 25px;
 }
-#mushroomLamp{
-    height: 399px;
-    width: 499px;
+#ipad>p{
+    font-family: extra-light;
+    margin-top: -10px;
 }
+
+
+
+#MP3>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#MP3>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+}
+#MP3>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+#Mirror>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#Mirror>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+}
+#Mirror>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+
+#airpods>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#airpods>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+}
+#airpods>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+
+#smartWatch>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#smartWatch>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+}
+#smartWatch>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+
+#sweater>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#sweater>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+}
+#sweater>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+#Nike>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#Nike>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+
+}
+#Nike>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+ /* ````````````````````````````````````````````footer````````````````````````````````````````````  */
+
+#footer{
+    margin-top: 150px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+}
+ #abt>img{
+    width: 123px;
+    height: 32px;
+ }
+ #abt>p{
+    width: 372px;
+    height: 66px;
+    font-family: medium;
+ }
+ #forBegginer{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+ }
+ #forBegginer>h1{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    padding-bottom: 8px;
+ }
+ #forBegginer>p{
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #535A56;
+ }
+
+
+
+
+ #Overview{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+ }
+ #Overview>h1{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    padding-bottom: 8px;
+ }
+ #Overview>p{
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #535A56;
+ }
+
+
+ #ExploreUs{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+ }
+ #ExploreUs>h1{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    padding-bottom: 8px;
+ }
+ #ExploreUs>p{
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #535A56;
+ }
+
+
+
+
+  #ConnectUs{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+ }
+ #ConnectUs>h1{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    padding-bottom: 8px;
+ }
+ #ConnectUs>p{
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #535A56;
+ }
