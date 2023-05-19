@@ -182,6 +182,16 @@ body{
 }
 
 
+@media only screen and (max-width: 900px) {
+
+    #body1{
+        display: grid;
+        grid-template-columns: auto ;
+      
+    }
+  }
+
+
  /* ````````````````````````````````````````````body2````````````````````````````````````````````  */
 
  #body2{
@@ -233,6 +243,14 @@ body{
     margin-top: 72px;
 }
 
+@media only screen and (max-width: 900px) {
+
+    #topBrands{
+        display: grid;
+        grid-template-columns: auto auto ;
+      
+    }
+}
 
  /* ````````````````````````````````````````````body3````````````````````````````````````````````  */
 
@@ -433,7 +451,37 @@ body{
     margin-top: -17px;
 }
 
+@media only screen and (max-width: 900px) {
 
+    #body32{
+        margin: 0;
+        display: grid;
+        grid-template-columns: auto ;
+
+    }
+    #cols{
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: auto auto;
+      
+    }
+    #skincare{
+        margin-left: -250px;
+        margin-top: -1px;
+    }
+    #rows{
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+    #Shoes{
+        margin-left: 100px;
+    }
+    #electronics{
+        margin-left: -430px;
+    }
+  }
 
 
  /* ````````````````````````````````````````````body4````````````````````````````````````````````  */
@@ -543,7 +591,31 @@ body{
 }
 
 
+@media only screen and (max-width: 900px) {
 
+
+    #why{
+        justify-content: left;
+    }
+    #perks{
+        margin-left: -500px;
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: center;    
+    }
+    #delivery{
+        margin: 0;
+    }
+
+        #forYou{
+            margin: 0;
+            justify-self: center;
+        }
+        #body4{
+            justify-content: start;
+        }
+        
+  }
 
 
  /* ````````````````````````````````````````````body5````````````````````````````````````````````  */
@@ -799,3 +871,13 @@ body{
     font-size: 14px;
     color: #535A56;
  }
+
+
+ @media only screen and (max-width: 900px) {
+
+    #footer{
+        display: grid;
+        grid-template-columns: auto auto ;
+      
+    }
+  }

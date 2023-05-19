@@ -17,7 +17,7 @@ body{
     padding: 16px;
     background-color: white;
 }
-#email, #psw{
+#email, #psw ,#username{
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -25,12 +25,12 @@ body{
     border: none;
     background: #f1f1f1;
 } 
-#email:focus, #psw:focus{
+#email:focus, #psw:focus, #username:focus{
     background-color: #ddd;
     outline: none;
 }
 
-#psw-repeat{
+#pswRepeat{
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -38,7 +38,7 @@ body{
     border: none;
     background: #f1f1f1;
 } 
-#psw-repeat:focus{
+#pswRepeat:focus{
     background-color: #ddd;
     outline: none;
 }
@@ -54,11 +54,12 @@ hr{
     background-color: #04AA6D;
     color: white;
     padding: 16px 20px;
-    margin: 8px 0;
+    margin: 8px 580px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 110px;
     opacity: 0.9;
+    border-radius: 8px;
 }
   
 #registerbtn:hover {

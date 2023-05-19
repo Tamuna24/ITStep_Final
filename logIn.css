@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: darkolivegreen;
+    color: white;
+}
+  
+#LogIn{
+    text-align: center;
+}
+  
+#logInForm{
+    width: 300px;
+    margin: 0 auto;
+}
+  
+.label{
+    display: block;
+    margin-top: 10px;
+}
+  
+#username, #password{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+  
+#submit{
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+  
+#submit:hover {
+    background-color: #45a049;
+}
+  
