@@ -1,0 +1,16 @@
+{"products":[
+    { "id":1,"img":"tokopedia1.jpg", "title":"IPX8 Waterproof & Sweatproof","price":"$123.99","description":"Nano-coating surface protects your earbuds from rain and sweat." },
+    { "id":2,"img":"tokopedia2.jpg", "title":"A710BL","price":"$345.99","description":"Foldable ANC FUnction Wireless Headphone." },
+    { "id":3,"img":"tokopedia3.jpg", "title":"Fujifilm X-T2","price":"$651.99","description":"DSLR-style weather-resistant mirrorless camera." },
+    { "id":4,"img":"tokopedia4.jpg", "title":"airpodes","price":"$65.99","description":"USB-C & 7 Hrs Ultra-long Enjoyment Per Charge." },
+    { "id":5,"img":"tokopedia5.jpg", "title":"bage dress","price":"$46.99","description":"Super Comfortable and ellegant." },
+    { "id":6,"img":"tokopedia6.jpg", "title":"light green long skirt","price":"$74.99","description":"Really Comfortable and ellegant." },
+    { "id":7,"img":"tokopedia7.jpg", "title":"black long dress with white shirt","price":"$84.99","description":"Ellegant, cute and beautiful." },
+    { "id":8,"img":"tokopedia8.jpg", "title":"jacket Loaded with ornaments of different kinds ","price":"$844.99","description":"really popular among mid-aged people." },
+    { "id":9,"img":"tokopedia9.jpg", "title":"light purple handbag","price":"$38.99","description":"hand made, big storage and really soft." },
+    { "id":10,"img":"tokopedia10.jpg", "title":"dinosaur tote bag ","price":"$34.99","description":"really cute, hand-sawn big storage." },
+    { "id":11,"img":"tokopedia11.jpg", "title":"cat handbag","price":"$35.99","description":"really cute,big storage and super soft." },
+    { "id":12,"img":"tokopedia12.jpg", "title":"flower tote bag","price":"$24.99","description":"really cute,big storage and super soft." },
+    { "id":13,"img":"balenciaga1.jpg", "title":"Cabas S logo-print leather-trim canvas tote bag","price":"$684.99","description":"Balenciaga's black canvas Cabas S bag is a branded iteration of the classic East-West tote." },
+    { "id":14,"img":"balenciaga2.jpg", "title":"Balenciaga's gold BB logo plaque frames the hinges of these white acetate sunglasses","price":"$684.99","description":"shaped to a contemporary rectangular frame with grey-tinted lenses" },
+  ]}

@@ -4,31 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="logIn.css">
+    <link rel="stylesheet" href="css/logIn.css">
     <title>Document</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html>
-<head>
-  <title>Sign Up</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <h1 id="LogIn">Log In</h1>
   <form action="" method="post" id="logInForm">
-    <label for="username" class="label">Username:</label>
-    <input type="text" id="username" name="username" required><br><br>
+    <label for="email" class="label">email:</label>
+    <input type="email" id="email" name="email" required><br><br>
         
     <label for="password" class="label">Password:</label>
     <input type="password" id="password" name="password" required><br><br>
     
-    <input type="submit" value="Log In" id="submit">
+    <input value="Log In" id="submit" onclick="logIn1(event)">
   </form>
 
-  <script src="logIn.js"></script>
-</body>
-</html>
-
+  <script src="js/logIn.js"></script>
 </body>
 </html>

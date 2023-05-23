@@ -1,0 +1,885 @@
+
+
+@font-face {
+    font-family: regular;
+    src: url(font/Manrope-Regular.ttf);
+    /* font-family: extra-light;
+    src: url(font/Manrope-ExtraLight.ttf); */
+}
+@font-face {
+
+    font-family: extra-light;
+    src: url(font/Manrope-ExtraLight.ttf);
+}
+@font-face {
+
+    font-family: medium;
+    src: url(font/Manrope-Medium.ttf);
+}
+body{
+    margin: 0px;
+    font-family: regular;
+    width: 1437px;
+    box-sizing: border-box;
+}
+
+ /* ````````````````````````````````````````````header````````````````````````````````````````````  */
+#header{
+    display: flex;
+    flex-direction: row;
+    width: 1437px;
+}
+ #logo{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    margin-left: 120px;
+    margin-top: 52px;
+}
+
+
+#navBar{
+    margin-left: 463px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 52px;
+}
+#navBar>a:first-child{
+    /* just first child */
+    width: 45px;
+   height: 16px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 16px;
+   letter-spacing: 0.3px;
+   color: black;
+}
+#navBar>a:not(:first-child){
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: grey;
+}
+#navBar>a{
+    margin-left: 40px;
+    text-decoration: none;
+    }    
+#btns{
+    margin-left: 260px;
+    display: flex;
+    flex-direction: row;
+}
+#btns>a{
+    text-decoration: none;
+}
+#logIn{
+    width: 43px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    color: black;
+    margin-top: 64px;
+}
+#register{
+    position: relative;
+    margin-left: 38px;
+    margin-top: 52px;
+    width: 66px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border: 1px solid rgba(60, 147, 121, 1);
+    background-color: #3C9379;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+
+ /* ````````````````````````````````````````````body1````````````````````````````````````````````  */
+
+#body1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 56px;
+}
+#about{
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+ #about>h1{
+    width: 457px;
+    height: 140px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+    color: black;
+}
+ #about>h2{
+    margin-top: -110px;
+    width: 457px;
+    height: 140px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+    letter-spacing: 0.5px;
+    color: rgba(60, 147, 121, 1);
+}
+#about>p{
+    margin-top: -80px;
+    width: 454px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #535A56;
+}
+#about>a{
+    position: relative;
+    width: 112px;
+    height: 16px;    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border: 1px solid rgba(60, 147, 121, 1);
+    background-color: #3C9379;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+#photo{
+    background-image: url(../images/body1/woman.png);
+    width: 970px;
+    height: 600px;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    #body1{
+        display: grid;
+        grid-template-columns: auto ;
+      
+    }
+  }
+
+
+ /* ````````````````````````````````````````````body2````````````````````````````````````````````  */
+
+ #body2{
+    margin-top: 75px;
+ }
+ #body2>h1{
+    width: 602px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: black;
+    margin-left: 409px;
+ }
+#topBrands{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+}
+#topBrands>img{
+    margin-right: 45px;
+}
+#tokopedia{
+    width: 203.98px;
+    height: 44.08px;
+    margin-top: 60px;
+}
+#balenciaga{
+    width: 207px;
+    height: 26px;
+    margin-top: 70px;
+}
+#adidas{
+    width: 202.1px;
+    height: 46.2px;
+    margin-top: 60px;
+}
+#gucci{
+    width: 202px;
+    height: 32px;
+    margin-top: 67px;
+}
+#Bukalapak{
+    width: 204px;
+    height: 33px;
+    margin-top: 72px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    #topBrands{
+        display: grid;
+        grid-template-columns: auto auto ;
+      
+    }
+}
+
+ /* ````````````````````````````````````````````body3````````````````````````````````````````````  */
+
+
+
+ #body3{
+    margin-top: 130px;
+ }
+
+
+ #body32{
+    margin-top: -10px;
+ }
+#browse{
+    margin-left: 120px;
+    width: 343px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+    color: black;
+}
+
+
+#body32{
+    display: flex;
+    flex-direction: row;
+}
+
+#cols{
+    box-sizing: border-box;
+    margin-left: 120px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#clothes{
+    width: 500px;
+    height: 180px;
+    border-radius: 30px;
+    width: 500px;
+    height: 180px;
+    background: black;
+}
+#clothes>img{
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 500px;
+    height: 180px;
+    opacity: 0.5;
+}
+#fashionNums{
+    width: 78px;
+    height: 20px;
+    color: white;
+    margin-left: 390px;
+    position: relative;
+    margin-bottom: -50px;
+}
+#fashionNums>h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px; 
+    font-style: normal; 
+}
+#fashionNums>h4{
+    font-family: extra-light;
+    width: 100px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    margin-top: -17px;
+}
+#skincare{
+    background: black;
+    margin-top: 20px;
+    width: 500px;
+    height: 180px;
+    border-radius: 30px;
+}
+#skincare>img{
+    margin-top: 31px;
+    opacity: 0.5;
+    border-radius: 30px;
+}
+#skincareNums{
+    width: 78px;
+    height: 20px;
+    color: white;
+    margin-left: 390px;
+    position: relative;
+    margin-bottom: -70px;
+}
+#skincare>h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px; 
+    font-style: normal; 
+}
+#skincareNums>h4{
+    font-family: extra-light;
+    width: 100px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    margin-top: -17px;
+}
+
+
+#rows{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#Shoes>img{
+    opacity: 0.5;
+}
+#Shoes{
+    margin-top: 18px;
+    border-radius: 30px;
+    width: 287px;
+    height: 386px;
+    background: black;
+}
+#shoesNums{
+    margin-top: -380px;
+    color: white;
+    margin-left: 165px;
+}
+#shoesNums>h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px; 
+    font-style: normal; 
+}
+#shoesNums>h4{
+    font-family: extra-light;
+    width: 100px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    margin-top: -17px;
+}
+
+
+
+
+
+
+
+#electronics>img{
+    opacity: 0.5;
+}
+#electronics{
+    margin-top: 18px;
+    border-radius: 30px;
+    width: 361px;
+    height: 386px;
+    background: black;
+    margin-left: 30px;
+}
+#electronicNums{
+    margin-top: -380px;
+    color: white;
+    margin-left: 165px;
+}
+#electronicNums>h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px; 
+    font-style: normal; 
+}
+#electronicNums>h4{
+    font-family: extra-light;
+    width: 100px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+    margin-top: -17px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    #body32{
+        margin: 0;
+        display: grid;
+        grid-template-columns: auto ;
+
+    }
+    #cols{
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: auto auto;
+      
+    }
+    #skincare{
+        margin-left: -250px;
+        margin-top: -1px;
+    }
+    #rows{
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+    #Shoes{
+        margin-left: 100px;
+    }
+    #electronics{
+        margin-left: -430px;
+    }
+  }
+
+
+ /* ````````````````````````````````````````````body4````````````````````````````````````````````  */
+
+
+ #body4{
+    margin-top: 100px;
+ }
+#why{
+    width: 342px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+    margin-left: 570px;
+}
+#perks{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+#delivery{
+    margin-left: 220px;
+    text-align: center;
+}
+#delivery>h3{
+    height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: regular;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: black;
+}
+#delivery>p{
+    width: 300px;
+    font-family: extra-light;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: grey;
+
+}
+
+
+
+#trust{
+    margin-left: 65px;
+    text-align: center;
+}
+#trust>h3{
+    height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: regular;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: black;
+}
+#trust>p{
+    width: 300px;
+    font-family: extra-light;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: grey;
+
+}
+
+
+
+#forYou{
+    margin-left: 65px;
+    text-align: center;
+}
+#forYou>h3{
+    height: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: regular;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: black;
+}
+#forYou>p{
+    width: 300px;
+    font-family: extra-light;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: grey;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+
+    #why{
+        justify-content: left;
+    }
+    #perks{
+        margin-left: -500px;
+        display: grid;
+        grid-template-columns: auto auto ;
+        justify-content: center;    
+    }
+    #delivery{
+        margin: 0;
+    }
+
+        #forYou{
+            margin: 0;
+            justify-self: center;
+        }
+        #body4{
+            justify-content: start;
+        }
+        
+  }
+
+
+ /* ````````````````````````````````````````````body5````````````````````````````````````````````  */
+
+#body5{
+    margin-top: 100px;
+}
+#popularProduct{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-left: 100px;
+}
+  
+#popularProduct>div{
+    padding: 10px;
+
+}
+#ipad>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#ipad>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 30px;
+    font-size: 25px;
+}
+#ipad>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+#MP3>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#MP3>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+}
+#MP3>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+#Mirror>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#Mirror>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+}
+#Mirror>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+
+#airpods>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#airpods>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+}
+#airpods>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+
+#smartWatch>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#smartWatch>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+}
+#smartWatch>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+
+#sweater>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#sweater>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+}
+#sweater>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+#Nike>img{
+    height: 379px;
+    width: 299px;
+    border-radius: 30px;
+}
+#Nike>h1{
+    font-family: regular;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+
+}
+#Nike>p{
+    font-family: extra-light;
+    margin-top: -10px;
+}
+
+
+
+ /* ````````````````````````````````````````````footer````````````````````````````````````````````  */
+
+#footer{
+    margin-top: 150px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+}
+ #abt>img{
+    width: 123px;
+    height: 32px;
+ }
+ #abt>p{
+    width: 372px;
+    height: 66px;
+    font-family: medium;
+ }
+ #forBegginer{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+ }
+ #forBegginer>h1{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    padding-bottom: 8px;
+ }
+ #forBegginer>p{
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #535A56;
+ }
+
+
+
+
+ #Overview{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+ }
+ #Overview>h1{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    padding-bottom: 8px;
+ }
+ #Overview>p{
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #535A56;
+ }
+
+
+ #ExploreUs{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+ }
+ #ExploreUs>h1{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    padding-bottom: 8px;
+ }
+ #ExploreUs>p{
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #535A56;
+ }
+
+
+
+
+  #ConnectUs{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+ }
+ #ConnectUs>h1{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    padding-bottom: 8px;
+ }
+ #ConnectUs>p{
+    margin-top: -5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #535A56;
+ }
+
+
+ @media only screen and (max-width: 900px) {
+
+    #footer{
+        display: grid;
+        grid-template-columns: auto auto ;
+      
+    }
+  }

@@ -36,6 +36,8 @@ body{
     margin-left: 120px;
     margin-top: 52px;
 }
+
+
 #navBar{
     margin-left: 463px;
     display: flex;
@@ -66,50 +68,6 @@ body{
     margin-left: 40px;
     text-decoration: none;
     }    
-#btns{
-    margin-left: 260px;
-    display: flex;
-    flex-direction: row;
-}
-#btns>a{
-    text-decoration: none;
-}
-#logIn{
-    width: 43px;
-    height: 16px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 0.3px;
-    color: black;
-    margin-top: 64px;
-}
-#register{
-    position: relative;
-    margin-left: 38px;
-    margin-top: 52px;
-    width: 66px;
-    height: 16px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    letter-spacing: 0.3px;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-bottom: 12px;
-    padding-top: 12px;
-    border: 1px solid rgba(60, 147, 121, 1);
-    background-color: #3C9379;
-    text-align: center;
-    color: white;
-    border-radius: 8px;
-}
-
-
-
-
  /* ````````````````````````````````````````````body1````````````````````````````````````````````  */
 
 #body1{
@@ -175,7 +133,7 @@ body{
     text-decoration: none;
 }
 #photo{
-    background-image: url(body1/woman.png);
+    background-image: url(../images/body1/woman.png);
     width: 970px;
     height: 600px;
     background-size: cover;
@@ -191,68 +149,6 @@ body{
     }
   }
 
-
- /* ````````````````````````````````````````````body2````````````````````````````````````````````  */
-
- #body2{
-    margin-top: 75px;
- }
- #body2>h1{
-    width: 602px;
-    height: 80px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 0.3px;
-    color: black;
-    margin-left: 409px;
- }
-#topBrands{
-    display: flex;
-    flex-direction: row;
-    margin-left: 120px;
-}
-#topBrands>img{
-    margin-right: 45px;
-}
-#tokopedia{
-    width: 203.98px;
-    height: 44.08px;
-    margin-top: 60px;
-}
-#balenciaga{
-    width: 207px;
-    height: 26px;
-    margin-top: 70px;
-}
-#adidas{
-    width: 202.1px;
-    height: 46.2px;
-    margin-top: 60px;
-}
-#gucci{
-    width: 202px;
-    height: 32px;
-    margin-top: 67px;
-}
-#Bukalapak{
-    width: 204px;
-    height: 33px;
-    margin-top: 72px;
-}
-
-@media only screen and (max-width: 900px) {
-
-    #topBrands{
-        display: grid;
-        grid-template-columns: auto auto ;
-      
-    }
-}
-
- /* ````````````````````````````````````````````body3````````````````````````````````````````````  */
 
 
 
@@ -484,144 +380,15 @@ body{
   }
 
 
- /* ````````````````````````````````````````````body4````````````````````````````````````````````  */
-
-
- #body4{
-    margin-top: 100px;
- }
-#why{
-    width: 342px;
-    height: 40px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: 0.3px;
-    margin-left: 570px;
-}
-#perks{
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
-}
-#delivery{
-    margin-left: 220px;
-    text-align: center;
-}
-#delivery>h3{
-    height: 20px;
-    font-style: normal;
-    font-weight: 700;
-    font-family: regular;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 0.3px;
-    color: black;
-}
-#delivery>p{
-    width: 300px;
-    font-family: extra-light;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.3px;
-    color: grey;
-
-}
-
-
-
-#trust{
-    margin-left: 65px;
-    text-align: center;
-}
-#trust>h3{
-    height: 20px;
-    font-style: normal;
-    font-weight: 700;
-    font-family: regular;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 0.3px;
-    color: black;
-}
-#trust>p{
-    width: 300px;
-    font-family: extra-light;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.3px;
-    color: grey;
-
-}
-
-
-
-#forYou{
-    margin-left: 65px;
-    text-align: center;
-}
-#forYou>h3{
-    height: 20px;
-    font-style: normal;
-    font-weight: 700;
-    font-family: regular;
-    font-size: 20px;
-    line-height: 20px;
-    letter-spacing: 0.3px;
-    color: black;
-}
-#forYou>p{
-    width: 300px;
-    font-family: extra-light;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: 0.3px;
-    color: grey;
-
-}
-
-
-@media only screen and (max-width: 900px) {
-
-
-    #why{
-        justify-content: left;
-    }
-    #perks{
-        margin-left: -500px;
-        display: grid;
-        grid-template-columns: auto auto ;
-        justify-content: center;    
-    }
-    #delivery{
-        margin: 0;
-    }
-
-        #forYou{
-            margin: 0;
-            justify-self: center;
-        }
-        #body4{
-            justify-content: start;
-        }
-        
-  }
-
 
  /* ````````````````````````````````````````````body5````````````````````````````````````````````  */
 
 #body5{
     margin-top: 100px;
+}
+
+#headline{
+    margin-left: 120px;
 }
 #popularProduct{
     display: flex;

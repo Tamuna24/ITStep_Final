@@ -17,7 +17,7 @@ body{
     padding: 16px;
     background-color: white;
 }
-#email, #psw ,#username{
+#email, #userName, #psw ,#firstName, #lastName, #privateNumber, #active{
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -25,24 +25,10 @@ body{
     border: none;
     background: #f1f1f1;
 } 
-#email:focus, #psw:focus, #username:focus{
+#email:focus, #userName, #psw:focus, #firstName:focus, #lastName:focus, #privateNumber:focus, #active:focus{
     background-color: #ddd;
     outline: none;
 }
-
-#pswRepeat{
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-} 
-#pswRepeat:focus{
-    background-color: #ddd;
-    outline: none;
-}
-
 
 
 hr{
