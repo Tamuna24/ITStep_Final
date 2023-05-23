@@ -2,15 +2,15 @@ fetch("data/products.json")
 .then((res) => {
 return res.json();
 })
-.then((data) => {
+.then((data1) => {
 
   let data = ""
-  data.products.forEach(product => {
+  data1.products.forEach(product => {
     data=data+ ` <div class="column tokopedia">
     <div class="content">
-      <img src="images/tokopedia/`+tokopedia1.jpg+`" alt="Mountains" style="width:100%">
-      <h4>`++`IPX8 Waterproof & Sweatproof $123.99</h4>
-      <p>Nano-coating surface protects your earbuds from rain and sweat.</p>
+      <img src="images/`+product.img+`" alt="Mountains" style="width:100%">
+      <h4>`+product.title+``+product.price+`</h4>
+      <p>`+product.description+`</p>
       <button onclick="addToCart(`+product.id+`)">Add to Cart</button>
     </div>
   </div>`
@@ -19,6 +19,8 @@ return res.json();
   console.log(data)}
 
 );
+
+
 
 
 function showAll() {
@@ -122,11 +124,22 @@ function showAll() {
   let cartItems = [];
   let total = 0;
   
-  function addToCart(productName) {
-    cartItems.push(productName);
+  function addToCart(productid) {
+    let obj=""
+    fetch("data/products.json")
+    .then((res) => {
+    return res.json();
+  })
+.then((data1) => {
+
+   obj = data1.find(o => o.id == productid);
+  });
+  cartItems.push(obj.title);
     total += getProductPrice(productName);
     updateCart();
-  }
+}
+
+
   
   function updateCart() {
     let cartItemsElement = document.getElementById('cartItems');
