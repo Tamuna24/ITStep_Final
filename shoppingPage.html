@@ -15,7 +15,7 @@
       <a href=""><img src="images/header/logo.png" alt=""></a>
     </div>
     <div id="navBar">
-      <a href="">Home</a> 
+      <a href="shopNow.html">Home</a> 
       <a href="">Products</a> 
       <a href="">Categories</a> 
       <a href="">Brands</a> 
@@ -23,20 +23,6 @@
     </div>
     <h1 id="welcome"></h1>
   </div>
-  <!-- ````````````````````````````````````````````body1```````````````````````````````````````````` -->
-
-  <div id="body1">
-    <div id="about">
-      <h1>Best Place To Buy</h1>
-      <h2>Everything.</h2>
-      <p>At Bachira, you can shop for all your favorite beauty brands, clothes,
-        household products and more at a single place.</p>
-        <a href="shopNow.html">Shopping Now</a>
-    </div>
-    <div id="photo">
-    </div>
-  </div>
-
 
 
 
@@ -53,16 +39,35 @@
                 <h3>Fashion</h3>
                 <h4>30,000 items</h4>  
               </div>
-              <img src="images/body3/clothes.png" alt="">
+              <img id="Fashion" src="images/body3/clothes.png" alt="Fashion 30,000 items" onclick="imgClick1()">
             </div>
+            <div id="myModal1" class="modal">
+              <span id="close1" class="close">&times;</span>
+              <img class="modal-content" id="img01">
+              <div id="caption1"></div>
+            </div>
+
+
+
             <div id="skincare">
               <div id="skincareNums">
                 <h3>Skincare</h3>
                 <h4>2,000 items</h4>
               </div>
-              <img src="images/body3/skincare.png" alt="">
+              <img src="images/body3/skincare.png" alt="Skincare 2,000 items" onclick="imgClick2()">
             </div>
           </div>
+
+          <div id="myModal2" class="modal">
+            <span id="close2" class="close">&times;</span>
+            <img class="modal-content" id="img02">
+            <div id="caption2"></div>
+          </div>
+
+
+
+
+
           <div id="rows">
             <div id="Shoes">
               <img src="images/body3/shoes.png" alt="">

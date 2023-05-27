@@ -2,7 +2,7 @@
 function btnregister(ev){
   
     ev.preventDefault(); //used to prevent from submitting before being fully filled
-    fetch('http://kketelauri-001-site1.gtempurl.com/api/user/adduser', {
+    fetch('https://kketelauri-001-site1.gtempurl.com/api/user/adduser', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',

@@ -1,6 +1,6 @@
 function logIn1(event){   
   event.preventDefault(); //used to prevent from submitting before being fully filled
-  fetch('http://kketelauri-001-site1.gtempurl.com/api/user/login', {
+  fetch('https://kketelauri-001-site1.gtempurl.com/api/user/login', {
       method: 'POST',
       headers: {
           'Accept': 'application/json',
