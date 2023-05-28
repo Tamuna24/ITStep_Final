@@ -1,3 +1,5 @@
+
+
 fetch("data/products.json")
 .then((res) => {
 return res.json();
@@ -18,7 +20,7 @@ return res.json();
 
   
   document.getElementById("productList").innerHTML=data;
-  console.log(data);
+
 }
 
 );
@@ -129,39 +131,38 @@ function showAll() {
   let total = 0;
   
   function addToCart(productid) {
-    let obj=""
+    let obj2=""
     fetch("data/products.json")
     .then((res) => {
     return res.json();
   })
 .then((data1) => {
-   obj = data1.find(o => o.id == productid);
-  });
-  // cartItems.push(obj.title);
-   titllocalStorage.setItem(productTitle)
-    total += getProductPrice(productPrice);
+
+   obj2 = data1.products.find(o => o.id == productid);
+   console.log(obj2)
+  let obj1=localStorage.getItem("data")
+  console.log(obj1)
+  if(obj1==null){
+    console.log(5)
+    obj1=[]
+  }else{
+    obj1=JSON.parse(obj1)
+  }
+
+
+  obj1.push(obj2)
+  // gadavaqcio isev jsondad
+   localStorage.setItem("data",JSON.stringify(obj1))
     updateCart();
+  });
+
+  
 }
 
 
   
-  function updateCart() {
-    let cartItemsElement = document.getElementById('cartItems');
-    cartItemsElement.innerHTML = '';
-  
-    cartItems.forEach(function(item) {
-      let li = document.createElement('li');
-      li.textContent = item;
-      cartItemsElement.appendChild(li);
-    });
-  
-    document.getElementById('total').textContent = 'Total: $' + total;
-  }
   
   function checkout() {
-    alert('Thank you for your purchase!');
     localStorage.getItem(obj.title)
-    total = 0;
-    updateCart();
   }
   

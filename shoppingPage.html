@@ -15,10 +15,10 @@
       <a href=""><img src="images/header/logo.png" alt=""></a>
     </div>
     <div id="navBar">
-      <a href="shopNow.html">Home</a> 
+      <a href="">Home</a> 
       <a href="">Products</a> 
       <a href="">Categories</a> 
-      <a href="">Brands</a> 
+      <a href="shopNow.html">Brands</a> 
       <a href="">Pricing</a> 
     </div>
     <h1 id="welcome"></h1>
@@ -54,7 +54,7 @@
                 <h3>Skincare</h3>
                 <h4>2,000 items</h4>
               </div>
-              <img src="images/body3/skincare.png" alt="Skincare 2,000 items" onclick="imgClick2()">
+              <img id="creams" src="images/body3/skincare.png" onclick="imgClick2()" alt="Skincare 2,000 items">
             </div>
           </div>
 
@@ -70,19 +70,37 @@
 
           <div id="rows">
             <div id="Shoes">
-              <img src="images/body3/shoes.png" alt="">
+              <img id="shoe" src="images/body3/shoes.png" onclick="imgClick3()" alt="Shoes 10,000 items">
               <div id="shoesNums">
                 <h3>Shoes</h3>
                 <h4>10,000 items</h4>
               </div>
             </div>
+
+            <div id="myModal3" class="modal">
+              <span id="close3" class="close">&times;</span>
+              <img class="modal-content" id="img03">
+              <div id="caption3"></div>
+            </div>
+  
+
             <div id="electronics">
-              <img src="images/body3/electronics.png" alt="">
+              <img id="el" onclick="imgClick4()" src="images/body3/electronics.png" alt="Electronic 10,000 items">
               <div id="electronicNums">
                 <h3>Electronic</h3>
                 <h4>10,000 items</h4>
               </div>
             </div>
+
+
+            <div id="myModal4" class="modal">
+              <span id="close4" class="close">&times;</span>
+              <img class="modal-content" id="img04">
+              <div id="caption4"></div>
+            </div>
+
+
+
           </div>
         </div>
       </div>
@@ -95,40 +113,94 @@
           <h1 id="headline">Month's favourite:</h1>
           <div class="scroll-container" id="popularProduct">
             <div id="Nike">
-              <img src="images/body5/Nike.png" alt="Nike Air Force">
+              <img id="nike1" onclick="imgClick5()" src="images/body5/Nike.png" alt="Nike Air Force" >
               <h1>Nike Air Force</h1>
               <p>Rp 2.999.999</p>
             </div>
+
+            <div id="myModal5" class="modal">
+              <span id="close5" class="close">&times;</span>
+              <img class="modal-content" id="img05">
+              <div id="caption5"></div>
+            </div>
+
             <div id="sweater">
-              <img src="images/body5/sweater.png" alt="White Sweater">
+              <img id="sweater1" onclick="imgClick6()" src="images/body5/sweater.png" alt="White Sweater">
               <h1>White Sweter</h1>
               <p>Rp 299.999</p>
             </div>
+
+            <div id="myModal6" class="modal">
+              <span id="close6" class="close">&times;</span>
+              <img class="modal-content" id="img06">
+              <div id="caption6"></div>
+            </div>
+
+
             <div id="smartWatch">
-              <img src="images/body5/smartWatch.png" alt="Android Smartwatch">
+              <img id="smartWatch1" onclick="imgClick7()" src="images/body5/smartWatch.png" alt="Android Smartwatch">
               <h1>Android Smartwatch</h1>
               <p>Rp 1.399.999</p>
             </div>
+
+            <div id="myModal7" class="modal">
+              <span id="close7" class="close">&times;</span>
+              <img class="modal-content" id="img07">
+              <div id="caption7"></div>
+            </div>
+
             <div id="airpods">
-              <img src="images/body5/airpods.png" alt="Apple Airpods">
+              <img id="airpods1" onclick="imgClick8()" src="images/body5/airpods.png" alt="Apple Airpods">
               <h1>Apple Airpods</h1>
               <p>Rp 2.599.999</p>
             </div>
+
+            <div id="myModal8" class="modal">
+              <span id="close8" class="close">&times;</span>
+              <img class="modal-content" id="img08">
+              <div id="caption8"></div>
+            </div>
+
+
+
             <div id="ipad">
-              <img src="images/body5/samsungMobile.jpg" alt="Ipad pro" >
+              <img id="ipad1" onclick="imgClick9()" src="images/body5/samsungMobile.jpg" alt="Ipad pro" >
               <h1>Ipad pro</h1>
               <p>Rp 3.299.999</p>
             </div>
+
+            <div id="myModal9" class="modal">
+              <span id="close9" class="close">&times;</span>
+              <img class="modal-content" id="img09">
+              <div id="caption9"></div>
+            </div>
+
+
             <div id="MP3">
-              <img src="images/body5/MP3player.jpg" alt="MP3 player wrist band">
+              <img id="MP31" onclick="imgClick10()" src="images/body5/MP3player.jpg" alt="MP3 player wrist band">
               <h1>MP3 player wrist band</h1>
               <p>Rp 5.299.999</p>
             </div>
+
+            <div id="myModal10" class="modal">
+              <span id="close10" class="close">&times;</span>
+              <img class="modal-content" id="img010">
+              <div id="caption10"></div>
+            </div>
+
             <div id="Mirror">
-              <img src="images/body5/touchscreenMirror.jpg" alt="touchscreen mirror" >
+              <img id="Mirror1" onclick="imgClick11()" src="images/body5/touchscreenMirror.jpg" alt="touchscreen mirror" >
               <h1>touchscreen mirror</h1>
               <p>Rp 10.299.999</p>
             </div>
+            
+            <div id="myModal11" class="modal">
+              <span id="close11" class="close">&times;</span>
+              <img class="modal-content" id="img011">
+              <div id="caption11"></div>
+            </div>
+
+
           </div>
         </div>
 
