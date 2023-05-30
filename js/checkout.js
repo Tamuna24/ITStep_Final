@@ -8,7 +8,7 @@ function getDataChechOut(){
       mydata.forEach(product => {
         data =data+`<div class="column `+product.type+`">
         <div class="content " >
-          <img src="../images/`+product.img+`" alt="Mountains" style="width:100%">
+          <img src="images/`+product.img+`" alt="Mountains" style="width:100%">
           <h4>`+product.title+ `` +product.price+`</h4>
           <p>`+product.description+`</p>
           <h2 onclick="delete1(`+product.id+`)" id="delete" class="close">delete</h2>
