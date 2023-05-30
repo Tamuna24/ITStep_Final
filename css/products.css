@@ -2,10 +2,16 @@
     box-sizing: border-box;
   }
   
+  @font-face {
+    font-family: regular;
+    src: url(../images/font/Manrope-Regular.ttf);
+}
+
   body {
     background-color: #f1f1f1;
     padding: 20px;
     font-family: Arial;
+    font-family: regular;
   }
   #myBtnContainer{
     display: grid;

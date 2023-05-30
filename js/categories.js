@@ -153,7 +153,7 @@ function showAll() {
   obj1.push(obj2)
   // gadavaqcio isev jsondad
    localStorage.setItem("data",JSON.stringify(obj1))
-    updateCart();
+    // updateCart();
   });
 
   
