@@ -10,7 +10,7 @@ return res.json();
   data1.products.forEach(product => {
     data =data+`<div class="column `+product.type+`">
     <div class="content " >
-      <img src="images/`+product.img+`" alt="Mountains" style="width:100%">
+      <img src="../images/`+product.img+`" alt="Mountains" style="width:100%">
       <h4>`+product.title+ `` +product.price+`</h4>
       <p>`+product.description+`</p>
       <button onclick="addToCart(`+product.id+`)">Add to Cart</button>
